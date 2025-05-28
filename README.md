@@ -123,7 +123,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 ## Citation
 ```bash
-@software{liu2025awesome,
+@online{liu2025awesome,
   author       = {Dong Liu, Xuqing Yang, Xuhong Wang, Ying Nian Wu},
   title        = {Awesome Distributed Reinforcement Learning},
   year         = {2025},
