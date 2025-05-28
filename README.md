@@ -183,56 +183,71 @@
 
 ## 🧱 System Frameworks
 
-- [Ray RLlib](https://docs.ray.io/en/latest/rllib/)  
-- [Acme](https://github.com/deepmind/acme)  
-- [CleanRL + SLURM](https://github.com/vwxyzjn/cleanrl)  
-- [TorchRL](https://pytorch.org/rl/)  
-- [Cleanba](https://github.com/vwxyzjn/cleanba)  
-- [FedHQL](https://arxiv.org/abs/2301.11135)  
+| Title             | Year | Link |
+|-------------------|------|------|
+| Ray RLlib         | 2021 | https://docs.ray.io/en/latest/rllib/ |
+| Acme              | 2020 | https://github.com/deepmind/acme |
+| TorchRL           | 2023 | https://pytorch.org/rl/ |
+| CleanRL + SLURM   | 2022 | https://github.com/vwxyzjn/cleanrl |
+| Cleanba           | 2023 | https://github.com/vwxyzjn/cleanba |
+| FedHQL            | 2023 | https://arxiv.org/abs/2301.11135 |
+| DistRL Framework  | 2024 | https://arxiv.org/abs/2401.15803 |
 
 ---
 
 ## 📡 Communication Efficiency
 
-- [Deep Gradient Compression](https://arxiv.org/abs/1712.01887)  
-- [Gradient Surgery](https://arxiv.org/abs/2001.06782)  
-- [DD-PPO](https://arxiv.org/abs/2007.04938)  
-- [Gradient Dropping](https://arxiv.org/abs/1806.08768)  
-- [Bandwidth-Aware RL](https://arxiv.org/abs/2303.08127)  
-- [QDDP](https://arxiv.org/abs/2102.09352)  
+| Title                             | Year | Link |
+|-----------------------------------|------|------|
+| Deep Gradient Compression         | 2017 | https://arxiv.org/abs/1712.01887 |
+| Gradient Surgery                  | 2020 | https://arxiv.org/abs/2001.06782 |
+| DD-PPO                            | 2020 | https://arxiv.org/abs/2007.04938 |
+| Gradient Dropping                 | 2018 | https://arxiv.org/abs/1806.08768 |
+| Bandwidth-Aware RL                | 2023 | https://arxiv.org/abs/2303.08127 |
+| QDDP: Quantized DRL               | 2021 | https://arxiv.org/abs/2102.09352 |
+| Communication-Aware Distributed RL| 2024 | https://arxiv.org/abs/2402.17222 |
 
 ---
 
 ## 👥 Multi-Agent Distributed RL
 
-- [MADDPG](https://arxiv.org/abs/1706.02275)  
-- [MAVEN](https://arxiv.org/abs/1910.07483)  
-- [R-MADDPG](https://arxiv.org/abs/2202.03428)  
-- [Tesseract](https://arxiv.org/abs/2211.03537)  
-- [FMRL-LA](https://arxiv.org/abs/2310.11572)  
-- [CAESAR](https://arxiv.org/abs/2402.07426)  
+| Title                   | Year | Link |
+|-------------------------|------|------|
+| MADDPG                  | 2017 | https://arxiv.org/abs/1706.02275 |
+| MAVEN                   | 2019 | https://arxiv.org/abs/1910.07483 |
+| R-MADDPG                | 2022 | https://arxiv.org/abs/2202.03428 |
+| Tesseract               | 2022 | https://arxiv.org/abs/2211.03537 |
+| FMRL-LA                 | 2023 | https://arxiv.org/abs/2310.11572 |
+| CAESAR                  | 2024 | https://arxiv.org/abs/2402.07426 |
+| FAgents: Federated MARL | 2023 | https://arxiv.org/abs/2312.22222 |
 
 ---
 
 ## 🦾 RLHF & Distributed Human Feedback
 
-- [InstructGPT](https://arxiv.org/abs/2203.02155)  
-- [Self-Instruct](https://arxiv.org/abs/2212.10560)  
-- [DPO: Direct Preference Optimization](https://arxiv.org/abs/2305.18290)  
-- [RAFT](https://arxiv.org/abs/2402.03620)  
-- [Distributed PPO (HF-TRL)](https://huggingface.co/docs/trl/main/en/)  
-- [Decentralized RLHF](https://arxiv.org/abs/2310.11883)  
+| Title                    | Year | Link |
+|--------------------------|------|------|
+| InstructGPT              | 2022 | https://arxiv.org/abs/2203.02155 |
+| Self-Instruct            | 2022 | https://arxiv.org/abs/2212.10560 |
+| DPO                      | 2023 | https://arxiv.org/abs/2305.18290 |
+| RAFT                     | 2024 | https://arxiv.org/abs/2402.03620 |
+| Distributed PPO (HF-TRL) | 2023 | https://huggingface.co/docs/trl/main/en/ |
+| Decentralized RLHF       | 2023 | https://arxiv.org/abs/2310.11883 |
+| FedRLHF                  | 2024 | https://arxiv.org/abs/2412.15538 |
 
 ---
 
 ## 🧠 Large-Scale Models in RL
 
-- [Gato](https://arxiv.org/abs/2205.06175)  
-- [PaLM-E](https://arxiv.org/abs/2303.03378)  
-- [Decision Transformer](https://arxiv.org/abs/2106.01345)  
-- [V-D4RL](https://arxiv.org/abs/2202.02349)  
-- [TAMER-GPT](https://arxiv.org/abs/2305.11521)  
-- [Gorilla](https://arxiv.org/abs/2305.01569)  
+| Title               | Year | Link |
+|---------------------|------|------|
+| Gato                | 2022 | https://arxiv.org/abs/2205.06175 |
+| PaLM-E              | 2023 | https://arxiv.org/abs/2303.03378 |
+| Decision Transformer| 2021 | https://arxiv.org/abs/2106.01345 |
+| V-D4RL              | 2022 | https://arxiv.org/abs/2202.02349 |
+| TAMER-GPT           | 2023 | https://arxiv.org/abs/2305.11521 |
+| Gorilla             | 2023 | https://arxiv.org/abs/2305.01569 |
+| Open X-Embodiment   | 2023 | https://arxiv.org/abs/2306.03367 |
 
 ---
 
