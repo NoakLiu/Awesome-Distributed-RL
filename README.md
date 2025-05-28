@@ -1,6 +1,6 @@
 # 🧠🔥 Awesome Distributed Reinforcement Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **130+ papers** and counting, maintained by [Dong Liu](https://github.com/NoakLiu).
+> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **130+ papers** and counting, maintained by [Dong Liu](https://github.com/NoakLiu) and [Xuqing Yang](https://github.com/catalpa-bungei).
 
 ---
 
