@@ -114,8 +114,9 @@
 | Federated Thompson Sampling for Bandits   |   2024 | https://arxiv.org/abs/2404.22222 |
 | Coordinated Exploration in Distributed RL |   2023 | https://arxiv.org/abs/2310.33333 |
 
+---
 
-### 🧱 System Frameworks
+## 🧱 System Frameworks
 
 | Title            |   Year | Link                                 |
 |:-----------------|-------:|:-------------------------------------|
@@ -127,8 +128,9 @@
 | FedHQL           |   2023 | https://arxiv.org/abs/2301.11135     |
 | DistRL Framework |   2024 | https://arxiv.org/abs/2401.15803     |
 
+---
 
-### 📡 Communication Efficiency
+## 📡 Communication Efficiency
 
 | Title                              |   Year | Link                             |
 |:-----------------------------------|-------:|:---------------------------------|
@@ -140,8 +142,9 @@
 | QDDP: Quantized DRL                |   2021 | https://arxiv.org/abs/2102.09352 |
 | Communication-Aware Distributed RL |   2024 | https://arxiv.org/abs/2402.17222 |
 
+---
 
-### 👥 Multi-Agent Distributed RL
+## 👥 Multi-Agent Distributed RL
 
 | Title                   |   Year | Link                             |
 |:------------------------|-------:|:---------------------------------|
@@ -153,8 +156,9 @@
 | CAESAR                  |   2024 | https://arxiv.org/abs/2402.07426 |
 | FAgents: Federated MARL |   2023 | https://arxiv.org/abs/2312.22222 |
 
+---
 
-### 🦾 RLHF & Distributed Human Feedback
+## 🦾 RLHF & Distributed Human Feedback
 
 | Title                    |   Year | Link                                     |
 |:-------------------------|-------:|:-----------------------------------------|
@@ -166,8 +170,9 @@
 | Decentralized RLHF       |   2023 | https://arxiv.org/abs/2310.11883         |
 | FedRLHF                  |   2024 | https://arxiv.org/abs/2412.15538         |
 
+---
 
-### 🧠 Large-Scale Models in RL
+## 🧠 Large-Scale Models in RL
 
 | Title                |   Year | Link                             |
 |:---------------------|-------:|:---------------------------------|
@@ -178,76 +183,6 @@
 | TAMER-GPT            |   2023 | https://arxiv.org/abs/2305.11521 |
 | Gorilla              |   2023 | https://arxiv.org/abs/2305.01569 |
 | Open X-Embodiment    |   2023 | https://arxiv.org/abs/2306.03367 |
-
----
-
-## 🧱 System Frameworks
-
-| Title             | Year | Link |
-|-------------------|------|------|
-| Ray RLlib         | 2021 | https://docs.ray.io/en/latest/rllib/ |
-| Acme              | 2020 | https://github.com/deepmind/acme |
-| TorchRL           | 2023 | https://pytorch.org/rl/ |
-| CleanRL + SLURM   | 2022 | https://github.com/vwxyzjn/cleanrl |
-| Cleanba           | 2023 | https://github.com/vwxyzjn/cleanba |
-| FedHQL            | 2023 | https://arxiv.org/abs/2301.11135 |
-| DistRL Framework  | 2024 | https://arxiv.org/abs/2401.15803 |
-
----
-
-## 📡 Communication Efficiency
-
-| Title                             | Year | Link |
-|-----------------------------------|------|------|
-| Deep Gradient Compression         | 2017 | https://arxiv.org/abs/1712.01887 |
-| Gradient Surgery                  | 2020 | https://arxiv.org/abs/2001.06782 |
-| DD-PPO                            | 2020 | https://arxiv.org/abs/2007.04938 |
-| Gradient Dropping                 | 2018 | https://arxiv.org/abs/1806.08768 |
-| Bandwidth-Aware RL                | 2023 | https://arxiv.org/abs/2303.08127 |
-| QDDP: Quantized DRL               | 2021 | https://arxiv.org/abs/2102.09352 |
-| Communication-Aware Distributed RL| 2024 | https://arxiv.org/abs/2402.17222 |
-
----
-
-## 👥 Multi-Agent Distributed RL
-
-| Title                   | Year | Link |
-|-------------------------|------|------|
-| MADDPG                  | 2017 | https://arxiv.org/abs/1706.02275 |
-| MAVEN                   | 2019 | https://arxiv.org/abs/1910.07483 |
-| R-MADDPG                | 2022 | https://arxiv.org/abs/2202.03428 |
-| Tesseract               | 2022 | https://arxiv.org/abs/2211.03537 |
-| FMRL-LA                 | 2023 | https://arxiv.org/abs/2310.11572 |
-| CAESAR                  | 2024 | https://arxiv.org/abs/2402.07426 |
-| FAgents: Federated MARL | 2023 | https://arxiv.org/abs/2312.22222 |
-
----
-
-## 🦾 RLHF & Distributed Human Feedback
-
-| Title                    | Year | Link |
-|--------------------------|------|------|
-| InstructGPT              | 2022 | https://arxiv.org/abs/2203.02155 |
-| Self-Instruct            | 2022 | https://arxiv.org/abs/2212.10560 |
-| DPO                      | 2023 | https://arxiv.org/abs/2305.18290 |
-| RAFT                     | 2024 | https://arxiv.org/abs/2402.03620 |
-| Distributed PPO (HF-TRL) | 2023 | https://huggingface.co/docs/trl/main/en/ |
-| Decentralized RLHF       | 2023 | https://arxiv.org/abs/2310.11883 |
-| FedRLHF                  | 2024 | https://arxiv.org/abs/2412.15538 |
-
----
-
-## 🧠 Large-Scale Models in RL
-
-| Title               | Year | Link |
-|---------------------|------|------|
-| Gato                | 2022 | https://arxiv.org/abs/2205.06175 |
-| PaLM-E              | 2023 | https://arxiv.org/abs/2303.03378 |
-| Decision Transformer| 2021 | https://arxiv.org/abs/2106.01345 |
-| V-D4RL              | 2022 | https://arxiv.org/abs/2202.02349 |
-| TAMER-GPT           | 2023 | https://arxiv.org/abs/2305.11521 |
-| Gorilla             | 2023 | https://arxiv.org/abs/2305.01569 |
-| Open X-Embodiment   | 2023 | https://arxiv.org/abs/2306.03367 |
 
 ---
 
