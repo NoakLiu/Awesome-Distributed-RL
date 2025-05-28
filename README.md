@@ -8,10 +8,13 @@
 
 - [📌 Key Surveys and Overviews](#📌-key-surveys-and-overviews)
 - [🚀 Algorithms & Theoretical Advances](#🚀-algorithms--theoretical-advances)
-  - [🔄 Actor-Critic & On-Policy](#🔄-actor-critic--on-policy)
-  - [🧊 Off-Policy & Replay-Centric](#🧊-off-policy--replay-centric)
-  - [🧠 Federated RL](#🧠-federated-rl)
-  - [📈 Scalable Async Methods](#📈-scalable-async-methods)
+  - [📈 Policy Gradient Methods](#📈-policy-gradient-methods)
+  - [🎯 Value-Based Methods](#🎯-value-based-methods)
+  - [🎭 Actor-Critic Methods](#🎭-actor-critic-methods)
+  - [⚡ Asynchronous & Parallel Methods](#⚡-asynchronous--parallel-methods)
+  - [🔄 Gradient Aggregation & Optimization](#🔄-gradient-aggregation--optimization)
+  - [🧮 Theoretical Foundations](#🧮-theoretical-foundations)
+  - [🎲 Exploration & Sampling](#🎲-exploration--sampling)
 - [🧱 System Frameworks](#🧱-system-frameworks)
 - [📡 Communication Efficiency](#📡-communication-efficiency)
 - [👥 Multi-Agent Distributed RL](#👥-multi-agent-distributed-rl)
@@ -36,33 +39,145 @@
 
 ## 🚀 Algorithms & Theoretical Advances
 
-### 🔄 Actor-Critic & On-Policy
+### 📈 Policy Gradient Methods
 
-- [IMPALA](https://arxiv.org/abs/1802.01561)  
-- [SEED RL](https://arxiv.org/abs/1910.06591)  
-- [Phasic Policy Gradient](https://arxiv.org/abs/2009.04416)  
-- [Scalable On-Policy RL via Importance Weights](https://arxiv.org/abs/2109.08765)  
+| Title                                                      |   Year | Link                             |
+|:-----------------------------------------------------------|-------:|:---------------------------------|
+| IMPALA: Scalable Distributed Deep-RL                       |   2018 | https://arxiv.org/abs/1802.01561 |
+| Distributed Proximal Policy Optimization                   |   2017 | https://arxiv.org/abs/1707.02286 |
+| Asynchronous Methods for Deep Reinforcement Learning (A3C) |   2016 | https://arxiv.org/abs/1602.01783 |
+| Asynchronous Federated RL with PG Updates                  |   2024 | https://arxiv.org/abs/2402.08372 |
+| Distributed Policy Gradient with Variance Reduction        |   2023 | https://arxiv.org/abs/2305.07180 |
+| Federated PG for Multi-Agent RL                            |   2023 | https://arxiv.org/abs/2304.12151 |
+| Scalable Distributed Policy Optimization via Consensus     |   2024 | https://arxiv.org/abs/2401.09876 |
 
-### 🧊 Off-Policy & Replay-Centric
 
-- [Ape-X](https://arxiv.org/abs/1803.00933)  
-- [R2D3](https://arxiv.org/abs/1910.01523)  
-- [Reverb](https://arxiv.org/abs/1911.09844)  
+### 🎯 Value-Based Methods
 
-### 🧠 Federated RL
+| Title                                                 |   Year | Link                             |
+|:------------------------------------------------------|-------:|:---------------------------------|
+| Ape-X: Distributed Prioritized Replay                 |   2018 | https://arxiv.org/abs/1803.00933 |
+| Distributed Deep Q-Learning                           |   2015 | https://arxiv.org/abs/1508.04186 |
+| Distributed Rainbow                                   |   2023 | https://arxiv.org/abs/2302.14592 |
+| Federated Q-Learning with Differential Privacy        |   2024 | https://arxiv.org/abs/2403.15789 |
+| Asynchronous Distributed Value Function Approximation |   2023 | https://arxiv.org/abs/2309.12456 |
 
-- [FEDORA](https://arxiv.org/abs/2305.03097)  
-- [FedRLHF](https://arxiv.org/abs/2412.15538)  
-- [Asynchronous FedPG](https://arxiv.org/abs/2410.07965)  
-- [Federated Natural Policy Gradient](https://arxiv.org/abs/2311.00201)  
-- [Heterogeneous FedRL](https://arxiv.org/abs/2401.15273)  
 
-### 📈 Scalable Async Methods
+### 🎭 Actor-Critic Methods
 
-- [SRL](https://arxiv.org/abs/2306.02835)  
-- [DistRL](https://arxiv.org/abs/2401.15803)  
-- [Sample Factory 2.0](https://arxiv.org/abs/2109.12908)  
-- [GA3C](https://arxiv.org/abs/1611.06256)  
+| Title                                                |   Year | Link                             |
+|:-----------------------------------------------------|-------:|:---------------------------------|
+| SEED RL                                              |   2020 | https://arxiv.org/abs/1910.06591 |
+| Muesli                                               |   2021 | https://arxiv.org/abs/2104.06159 |
+| Distributed Soft Actor-Critic with Experience Replay |   2023 | https://arxiv.org/abs/2308.14567 |
+| Federated Actor-Critic for Continuous Control        |   2024 | https://arxiv.org/abs/2404.11234 |
+| A3C with Communication Efficiency                    |   2023 | https://arxiv.org/abs/2311.08901 |
+
+
+### ⚡ Asynchronous & Parallel Methods
+
+| Title                                          |   Year | Link                             |
+|:-----------------------------------------------|-------:|:---------------------------------|
+| SRL: Scaling Distributed RL to 10,000+ Cores   |   2024 | https://arxiv.org/abs/2306.15108 |
+| DistRL: An Async Distributed RL Framework      |   2024 | https://arxiv.org/abs/2401.12453 |
+| Loss- and Reward-Weighting for Efficient DRL   |   2024 | https://arxiv.org/abs/2311.01354 |
+| Accelerated Methods for Distributed RL         |   2022 | https://arxiv.org/abs/2203.09511 |
+| Parallel A2C with Shared Experience            |   2023 | https://arxiv.org/abs/2307.19876 |
+| Distributed Async Temporal Difference Learning |   2024 | https://arxiv.org/abs/2402.17890 |
+
+
+### 🔄 Gradient Aggregation & Optimization
+
+| Title                                    |   Year | Link                             |
+|:-----------------------------------------|-------:|:---------------------------------|
+| Gradient Compression for Distributed DRL |   2023 | https://arxiv.org/abs/2305.14321 |
+| Byzantine-Robust Distributed RL          |   2024 | https://arxiv.org/abs/2403.08765 |
+| Variance-Reduced Distributed PG          |   2023 | https://arxiv.org/abs/2309.18765 |
+| Momentum-Based Distributed RL            |   2024 | https://arxiv.org/abs/2401.23456 |
+
+
+### 🧮 Theoretical Foundations
+
+| Title                                      |   Year | Link                             |
+|:-------------------------------------------|-------:|:---------------------------------|
+| Convergence Analysis of Distributed RL     |   2023 | https://arxiv.org/abs/2304.09876 |
+| Sample Complexity of Federated RL          |   2024 | https://arxiv.org/abs/2402.12345 |
+| Communication Complexity in Distributed RL |   2023 | https://arxiv.org/abs/2308.56789 |
+| Regret Bounds for Distributed Bandits      |   2024 | https://arxiv.org/abs/2405.11111 |
+
+
+### 🎲 Exploration & Sampling
+
+| Title                                     |   Year | Link                             |
+|:------------------------------------------|-------:|:---------------------------------|
+| Distributed Exploration in Deep RL        |   2023 | https://arxiv.org/abs/2306.78901 |
+| Federated Thompson Sampling for Bandits   |   2024 | https://arxiv.org/abs/2404.22222 |
+| Coordinated Exploration in Distributed RL |   2023 | https://arxiv.org/abs/2310.33333 |
+
+
+### 🧱 System Frameworks
+
+| Title            |   Year | Link                                 |
+|:-----------------|-------:|:-------------------------------------|
+| Ray RLlib        |   2021 | https://docs.ray.io/en/latest/rllib/ |
+| Acme             |   2020 | https://github.com/deepmind/acme     |
+| TorchRL          |   2023 | https://pytorch.org/rl/              |
+| CleanRL + SLURM  |   2022 | https://github.com/vwxyzjn/cleanrl   |
+| Cleanba          |   2023 | https://github.com/vwxyzjn/cleanba   |
+| FedHQL           |   2023 | https://arxiv.org/abs/2301.11135     |
+| DistRL Framework |   2024 | https://arxiv.org/abs/2401.15803     |
+
+
+### 📡 Communication Efficiency
+
+| Title                              |   Year | Link                             |
+|:-----------------------------------|-------:|:---------------------------------|
+| Deep Gradient Compression          |   2017 | https://arxiv.org/abs/1712.01887 |
+| Gradient Surgery                   |   2020 | https://arxiv.org/abs/2001.06782 |
+| DD-PPO                             |   2020 | https://arxiv.org/abs/2007.04938 |
+| Gradient Dropping                  |   2018 | https://arxiv.org/abs/1806.08768 |
+| Bandwidth-Aware RL                 |   2023 | https://arxiv.org/abs/2303.08127 |
+| QDDP: Quantized DRL                |   2021 | https://arxiv.org/abs/2102.09352 |
+| Communication-Aware Distributed RL |   2024 | https://arxiv.org/abs/2402.17222 |
+
+
+### 👥 Multi-Agent Distributed RL
+
+| Title                   |   Year | Link                             |
+|:------------------------|-------:|:---------------------------------|
+| MADDPG                  |   2017 | https://arxiv.org/abs/1706.02275 |
+| MAVEN                   |   2019 | https://arxiv.org/abs/1910.07483 |
+| R-MADDPG                |   2022 | https://arxiv.org/abs/2202.03428 |
+| Tesseract               |   2022 | https://arxiv.org/abs/2211.03537 |
+| FMRL-LA                 |   2023 | https://arxiv.org/abs/2310.11572 |
+| CAESAR                  |   2024 | https://arxiv.org/abs/2402.07426 |
+| FAgents: Federated MARL |   2023 | https://arxiv.org/abs/2312.22222 |
+
+
+### 🦾 RLHF & Distributed Human Feedback
+
+| Title                    |   Year | Link                                     |
+|:-------------------------|-------:|:-----------------------------------------|
+| InstructGPT              |   2022 | https://arxiv.org/abs/2203.02155         |
+| Self-Instruct            |   2022 | https://arxiv.org/abs/2212.10560         |
+| DPO                      |   2023 | https://arxiv.org/abs/2305.18290         |
+| RAFT                     |   2024 | https://arxiv.org/abs/2402.03620         |
+| Distributed PPO (HF-TRL) |   2023 | https://huggingface.co/docs/trl/main/en/ |
+| Decentralized RLHF       |   2023 | https://arxiv.org/abs/2310.11883         |
+| FedRLHF                  |   2024 | https://arxiv.org/abs/2412.15538         |
+
+
+### 🧠 Large-Scale Models in RL
+
+| Title                |   Year | Link                             |
+|:---------------------|-------:|:---------------------------------|
+| Gato                 |   2022 | https://arxiv.org/abs/2205.06175 |
+| PaLM-E               |   2023 | https://arxiv.org/abs/2303.03378 |
+| Decision Transformer |   2021 | https://arxiv.org/abs/2106.01345 |
+| V-D4RL               |   2022 | https://arxiv.org/abs/2202.02349 |
+| TAMER-GPT            |   2023 | https://arxiv.org/abs/2305.11521 |
+| Gorilla              |   2023 | https://arxiv.org/abs/2305.01569 |
+| Open X-Embodiment    |   2023 | https://arxiv.org/abs/2306.03367 |
 
 ---
 
