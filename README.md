@@ -15,6 +15,7 @@
   - [🔄 Gradient Aggregation & Optimization](#🔄-gradient-aggregation--optimization)
   - [🧮 Theoretical Foundations](#🧮-theoretical-foundations)
   - [🎲 Exploration & Sampling](#🎲-exploration--sampling)
+  - [🧠 Latent Thought Language Models (LTM) for RL](#🧠-latent-thought-language-models-ltm-for-rl)
 - [🧱 System Frameworks](#🧱-system-frameworks)
 - [📡 Communication Efficiency](#📡-communication-efficiency)
 - [👥 Multi-Agent Distributed RL](#👥-multi-agent-distributed-rl)
@@ -117,7 +118,7 @@
 | Coordinated Exploration in Distributed RL |   2023 | https://arxiv.org/abs/2310.33333 |
 
 
-### Latent Thought Language Models (LTM) for RL
+### 🧠 Latent Thought Language Models (LTM) for RL
 
 | Title                                                      |   Year | Link                             |
 |:-----------------------------------------------------------|-------:|:---------------------------------|
