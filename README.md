@@ -1,6 +1,6 @@
 # 🧠🔥 Awesome Distributed Reinforcement Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **130+ papers** and counting, maintained by [Dong Liu](https://github.com/NoakLiu) and [Xuqing Yang](https://github.com/catalpa-bungei).
+> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **140+ papers** and counting, maintained by [Dong Liu](https://github.com/NoakLiu) and [Xuqing Yang](https://github.com/catalpa-bungei).
 
 ---
 
@@ -67,7 +67,7 @@
 
 | Title                                                |   Year | Link                             |
 |:-----------------------------------------------------|-------:|:---------------------------------|
-| SEED RL                                              |   2020 | https://arxiv.org/abs/1910.06591 |
+| SEED RL: Scalable and Efficient Deep-RL with Accelerated Central Inference |   2019 | https://arxiv.org/abs/1910.06591 |
 | Muesli                                               |   2021 | https://arxiv.org/abs/2104.06159 |
 | Distributed Soft Actor-Critic with Experience Replay |   2023 | https://arxiv.org/abs/2308.14567 |
 | Federated Actor-Critic for Continuous Control        |   2024 | https://arxiv.org/abs/2404.11234 |
@@ -104,6 +104,8 @@
 | Sample Complexity of Federated RL          |   2024 | https://arxiv.org/abs/2402.12345 |
 | Communication Complexity in Distributed RL |   2023 | https://arxiv.org/abs/2308.56789 |
 | Regret Bounds for Distributed Bandits      |   2024 | https://arxiv.org/abs/2405.11111 |
+| Guaranteeing Out-Of-Distribution Detection in Deep RL via Transition Estimation |   2025 | https://ojs.aaai.org/index.php/AAAI/article/view/30123 |
+| Quantifying the Optimality of a Distributed RL-Based Autonomous Earth-Observing Constellation |   2025 | https://hanspeterschaub.info/Papers/grads/MattStephenson.pdf |
 
 
 ### 🎲 Exploration & Sampling
@@ -118,10 +120,13 @@
 
 ## 🧱 System Frameworks
 
-| Title            |   Year | Link                                 |
-|:-----------------|-------:|:-------------------------------------|
-| Ray RLlib        |   2021 | https://docs.ray.io/en/latest/rllib/ |
+| Title                                                    |   Year | Link                                 |
+|:---------------------------------------------------------|-------:|:-------------------------------------|
+| Ray RLlib                                                |   2021 | https://docs.ray.io/en/latest/rllib/ |
+| RLlib: Abstractions for Distributed Reinforcement Learning |   2018 | https://arxiv.org/abs/1712.09381     |
 | Acme             |   2020 | https://github.com/deepmind/acme     |
+| Acme: A Research Framework for Distributed Reinforcement Learning |   2020 | https://arxiv.org/abs/2006.00979     |
+| TorchBeast: A PyTorch Platform for Distributed RL    |   2019 | https://arxiv.org/abs/1910.03552     |
 | TorchRL          |   2023 | https://pytorch.org/rl/              |
 | CleanRL + SLURM  |   2022 | https://github.com/vwxyzjn/cleanrl   |
 | Cleanba          |   2023 | https://github.com/vwxyzjn/cleanba   |
@@ -132,29 +137,32 @@
 
 ## 📡 Communication Efficiency
 
-| Title                              |   Year | Link                             |
-|:-----------------------------------|-------:|:---------------------------------|
-| Deep Gradient Compression          |   2017 | https://arxiv.org/abs/1712.01887 |
-| Gradient Surgery                   |   2020 | https://arxiv.org/abs/2001.06782 |
-| DD-PPO                             |   2020 | https://arxiv.org/abs/2007.04938 |
-| Gradient Dropping                  |   2018 | https://arxiv.org/abs/1806.08768 |
-| Bandwidth-Aware RL                 |   2023 | https://arxiv.org/abs/2303.08127 |
-| QDDP: Quantized DRL                |   2021 | https://arxiv.org/abs/2102.09352 |
-| Communication-Aware Distributed RL |   2024 | https://arxiv.org/abs/2402.17222 |
+| Title                                                    |   Year | Link                             |
+|:---------------------------------------------------------|-------:|:---------------------------------|
+| Deep Gradient Compression                                |   2017 | https://arxiv.org/abs/1712.01887 |
+| Gradient Surgery                                         |   2020 | https://arxiv.org/abs/2001.06782 |
+| DD-PPO                                                   |   2020 | https://arxiv.org/abs/2007.04938 |
+| Gradient Dropping                                        |   2018 | https://arxiv.org/abs/1806.08768 |
+| Bandwidth-Aware RL                                       |   2023 | https://arxiv.org/abs/2303.08127 |
+| QDDP: Quantized DRL                                      |   2021 | https://arxiv.org/abs/2102.09352 |
+| Communication-Aware Distributed RL                       |   2024 | https://arxiv.org/abs/2402.17222 |
+| Application of Reinforcement Learning to Routing in Distributed Wireless Networks: A Review |   2015 | https://link.springer.com/article/10.1007/s10462-014-9433-0 |
 
 ---
 
 ## 👥 Multi-Agent Distributed RL
 
-| Title                   |   Year | Link                             |
-|:------------------------|-------:|:---------------------------------|
-| MADDPG                  |   2017 | https://arxiv.org/abs/1706.02275 |
-| MAVEN                   |   2019 | https://arxiv.org/abs/1910.07483 |
-| R-MADDPG                |   2022 | https://arxiv.org/abs/2202.03428 |
-| Tesseract               |   2022 | https://arxiv.org/abs/2211.03537 |
-| FMRL-LA                 |   2023 | https://arxiv.org/abs/2310.11572 |
-| CAESAR                  |   2024 | https://arxiv.org/abs/2402.07426 |
-| FAgents: Federated MARL |   2023 | https://arxiv.org/abs/2312.22222 |
+| Title                                                    |   Year | Link                             |
+|:---------------------------------------------------------|-------:|:---------------------------------|
+| MADDPG                                                   |   2017 | https://arxiv.org/abs/1706.02275 |
+| MAVEN                                                    |   2019 | https://arxiv.org/abs/1910.07483 |
+| R-MADDPG                                                 |   2022 | https://arxiv.org/abs/2202.03428 |
+| Tesseract                                                |   2022 | https://arxiv.org/abs/2211.03537 |
+| FMRL-LA                                                  |   2023 | https://arxiv.org/abs/2310.11572 |
+| CAESAR                                                   |   2024 | https://arxiv.org/abs/2402.07426 |
+| FAgents: Federated MARL                                  |   2023 | https://arxiv.org/abs/2312.22222 |
+| Distributed Reinforcement Learning for Robot Teams: A Review |   2022 | https://link.springer.com/article/10.1007/s43154-022-00085-4 |
+| A Distributed Multi-Agent RL-Based Autonomous Spectrum Allocation Scheme in D2D Enabled Multi-Tier HetNets |   2019 | https://ieeexplore.ieee.org/document/8736584 |
 
 ---
 
