@@ -70,8 +70,8 @@
 | SEED RL: Scalable and Efficient Deep-RL with Accelerated Central Inference |   2019 | https://arxiv.org/abs/1910.06591 |
 | Muesli                                               |   2021 | https://arxiv.org/abs/2104.06159 |
 | Distributed Soft Actor-Critic with Experience Replay |   2023 | https://arxiv.org/abs/2308.14567 |
-| Federated Actor-Critic for Continuous Control        |   2024 | https://arxiv.org/abs/2404.11234 |
-| A3C with Communication Efficiency                    |   2023 | https://arxiv.org/abs/2311.08901 |
+| Federated Actor-Critic for Continuous Control        |   2023 | https://arxiv.org/abs/2311.00201 |
+| A2C and A3C with Communication Efficiency                    |   2023 | https://ieeexplore.ieee.org/abstract/document/9289269 |
 
 
 ### ⚡ Asynchronous & Parallel Methods
@@ -105,7 +105,7 @@
 | Communication Complexity in Distributed RL |   2023 | https://arxiv.org/abs/2308.56789 |
 | Regret Bounds for Distributed Bandits      |   2024 | https://arxiv.org/abs/2405.11111 |
 | Guaranteeing Out-Of-Distribution Detection in Deep RL via Transition Estimation |   2025 | https://ojs.aaai.org/index.php/AAAI/article/view/30123 |
-| Quantifying the Optimality of a Distributed RL-Based Autonomous Earth-Observing Constellation |   2025 | https://hanspeterschaub.info/Papers/grads/MattStephenson.pdf |
+| Quantifying the Optimality of a Distributed RL-Based Autonomous Earth-Observing Constellation |   2025 | https://hanspeterschaub.info/Papers/Stephenson2025.pdf |
 
 
 ### 🎲 Exploration & Sampling
@@ -161,8 +161,8 @@
 | FMRL-LA                                                  |   2023 | https://arxiv.org/abs/2310.11572 |
 | CAESAR                                                   |   2024 | https://arxiv.org/abs/2402.07426 |
 | FAgents: Federated MARL                                  |   2023 | https://arxiv.org/abs/2312.22222 |
-| Distributed Reinforcement Learning for Robot Teams: A Review |   2022 | https://link.springer.com/article/10.1007/s43154-022-00085-4 |
-| A Distributed Multi-Agent RL-Based Autonomous Spectrum Allocation Scheme in D2D Enabled Multi-Tier HetNets |   2019 | https://ieeexplore.ieee.org/document/8736584 |
+| Distributed Reinforcement Learning for Robot Teams: A Review |   2022 | https://arxiv.org/abs/2204.03516 |
+| A Distributed Multi-Agent RL-Based Autonomous Spectrum Allocation Scheme in D2D Enabled Multi-Tier HetNets |   2019 | https://ieeexplore.ieee.org/document/8598795 |
 
 ---
 
