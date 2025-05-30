@@ -146,7 +146,8 @@
 | Bandwidth-Aware RL                                       |   2023 | https://arxiv.org/abs/2303.08127 |
 | QDDP: Quantized DRL                                      |   2021 | https://arxiv.org/abs/2102.09352 |
 | Communication-Aware Distributed RL                       |   2024 | https://arxiv.org/abs/2402.17222 |
-| Application of Reinforcement Learning to Routing in Distributed Wireless Networks: A Review |   2015 | https://link.springer.com/article/10.1007/s10462-014-9433-0 |
+| Application of Reinforcement Learning to Routing in Distributed Wireless Networks: A Review |   2015 | https://link.springer.com/article/10.1007/s10462-012-9383-6 |
+
 
 ---
 
