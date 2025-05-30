@@ -116,6 +116,17 @@
 | Federated Thompson Sampling for Bandits   |   2024 | https://arxiv.org/abs/2404.22222 |
 | Coordinated Exploration in Distributed RL |   2023 | https://arxiv.org/abs/2310.33333 |
 
+
+### Latent Thought Language Models (LTM) for RL
+
+| Title                                                      |   Year | Link                             |
+|:-----------------------------------------------------------|-------:|:---------------------------------|
+| Place Cells as Position Embeddings of Multi-Time Random Walk Transition Kernels for Path Planning | 2025 | https://arxiv.org/abs/2505.14806 |
+| Latent Adaptive Planner for Dynamic Manipulation | 2025 | https://arxiv.org/abs/2505.03077 |
+| Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space | 2025 | https://arxiv.org/abs/2505.13308 |
+| Scalable Language Models with Posterior Inference of Latent Thought Vectors | 2025 | https://arxiv.org/abs/2502.01567 |
+| Training Chain-of-Thought via Latent-Variable Inference | 2024 | https://openreview.net/forum?id=a147pIS2Co |
+
 ---
 
 ## 🧱 System Frameworks
