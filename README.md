@@ -56,6 +56,7 @@
 | Distributed Policy Gradient with Variance Reduction        |   2023 | https://arxiv.org/abs/2305.07180 |
 | Federated PG for Multi-Agent RL                            |   2023 | https://arxiv.org/abs/2304.12151 |
 | Scalable Distributed Policy Optimization via Consensus     |   2024 | https://arxiv.org/abs/2401.09876 |
+| Distributed Reinforcement Learning for Decentralized Linear Quadratic Control: A Derivative-Free Policy Optimization Approach | 2019 | https://arxiv.org/abs/1912.09135       |
 
 
 ### 🎯 Value-Based Methods
@@ -90,6 +91,12 @@
 | Accelerated Methods for Distributed RL         |   2022 | https://arxiv.org/abs/2203.09511 |
 | Parallel A2C with Shared Experience            |   2023 | https://arxiv.org/abs/2307.19876 |
 | Distributed Async Temporal Difference Learning |   2024 | https://arxiv.org/abs/2402.17890 |
+| DistRL: An Asynchronous Distributed Reinforcement Learning Framework for On-Device Control Agents | 2024 | https://arxiv.org/abs/2410.14803       |
+| SRL: Scaling Distributed Reinforcement Learning to Over Ten Thousand Cores | 2023 | https://arxiv.org/abs/2306.16688       |
+| MSRL: Distributed Reinforcement Learning with Dataflow Fragments      | 2022 | https://arxiv.org/abs/2210.00882       |
+| Cleanba: A Reproducible and Efficient Distributed Reinforcement Learning Platform | 2023 | https://arxiv.org/abs/2310.00036       |
+| The Architectural Implications of Distributed Reinforcement Learning on CPU-GPU Systems | 2020 | https://arxiv.org/abs/2012.04210       |
+
 
 
 ### 🔄 Gradient Aggregation & Optimization
@@ -116,11 +123,15 @@
 
 ### 🎲 Exploration & Sampling
 
-| Title                                     |   Year | Link                             |
-|:------------------------------------------|-------:|:---------------------------------|
-| Distributed Exploration in Deep RL        |   2023 | https://arxiv.org/abs/2306.78901 |
-| Federated Thompson Sampling for Bandits   |   2024 | https://arxiv.org/abs/2404.22222 |
-| Coordinated Exploration in Distributed RL |   2023 | https://arxiv.org/abs/2310.33333 |
+| Title                                                                 | Year | Link                                   |
+|:----------------------------------------------------------------------|-----:|:---------------------------------------|
+| Exploration with Multi-Sample Target Values for Distributional Reinforcement Learning | 2022 | https://arxiv.org/abs/2202.02693       |
+| Provable and Practical: Efficient Exploration in Reinforcement Learning via Langevin Monte Carlo | 2023 | https://arxiv.org/abs/2305.18246       |
+| More Efficient Randomized Exploration for Reinforcement Learning      | 2024 | https://arxiv.org/abs/2406.12241       |
+| LLM-Explorer: A Plug-in Reinforcement Learning Policy Exploration Enhancement Driven by Large Language Models | 2025 | https://arxiv.org/abs/2505.15293       |
+| Explore-Go: Leveraging Exploration for Generalisation in Deep Reinforcement Learning | 2024 | https://arxiv.org/abs/2406.08069       |
+
+
 
 
 ### 🧠 Latent Thought Language Models (LTM) for RL
@@ -132,6 +143,23 @@
 | Seek in the Dark: Reasoning via Test-Time Instance-Level Policy Gradient in Latent Space | 2025 | https://arxiv.org/abs/2505.13308 |
 | Scalable Language Models with Posterior Inference of Latent Thought Vectors | 2025 | https://arxiv.org/abs/2502.01567 |
 | Training Chain-of-Thought via Latent-Variable Inference | 2024 | https://openreview.net/forum?id=a147pIS2Co |
+
+
+### 🛰️ Federated Reinforcement Learning (FedRL)
+
+| Title                                                                 | Year | Link                                   |
+|:----------------------------------------------------------------------|-----:|:---------------------------------------|
+| Federated Deep Reinforcement Learning                                 | 2019 | https://arxiv.org/abs/1901.08277       |
+| Federated Reinforcement Learning: Techniques, Applications, and Open Challenges | 2021 | https://arxiv.org/abs/2108.11887       |
+| Federated Reinforcement Learning with Constraint Heterogeneity        | 2024 | https://arxiv.org/abs/2405.03236       |
+| Federated reinforcement learning for robot motion planning with zero-shot generalization | 2024 | https://arxiv.org/abs/2403.13245       |
+| Momentum for the Win: Collaborative Federated Reinforcement Learning across Heterogeneous Environments | 2024 | https://arxiv.org/abs/2405.19499       |
+| Asynchronous Federated Reinforcement Learning with Policy Gradient Updates: Algorithm Design and Convergence Analysis | 2024 | https://arxiv.org/abs/2404.08003       |
+| FedHPD: Heterogeneous Federated Reinforcement Learning via Policy Distillation | 2025 | https://arxiv.org/abs/2502.00870       |
+| Federated Reinforcement Learning with Environment Heterogeneity       | 2022 | https://arxiv.org/abs/2204.02634       |
+| Federated Ensemble-Directed Offline Reinforcement Learning            | 2023 | https://arxiv.org/abs/2305.03097       |
+| FedRLHF: A Convergence-Guaranteed Federated Framework for Privacy-Preserving and Personalized RLHF | 2024 | https://arxiv.org/abs/2412.15538       |
+
 
 ---
 
