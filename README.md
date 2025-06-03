@@ -29,12 +29,17 @@
 
 ---
 
-## 📌 Key Surveys and Overviews
+## 📌 Some Related Surveys and Overviews
 
 - **[Survey on Distributed RL](https://arxiv.org/abs/2004.11780)**  
 - **[Scaling RL](https://arxiv.org/abs/2203.00595)**  
 - **[A Survey on Federated RL](https://arxiv.org/abs/2202.02272)**  
 - **[RLHF: Challenges & Opportunities](https://arxiv.org/abs/2307.10169)**  
+- **[Distributed Deep Reinforcement Learning: A Survey and A Multi-Player Multi-Agent Learning Toolbox](https://arxiv.org/abs/2212.00253)**  
+- **[Acceleration for Deep Reinforcement Learning using Parallel and Distributed Computing: A Survey](https://dl.acm.org/doi/10.1145/3703453)**  
+- **[Distributed Training for Reinforcement Learning](https://cdsciavolino.github.io/static/media/RL_Training_Survey.8307fa6d.pdf)**  
+- **[A Survey on Multi-Agent Reinforcement Learning and Its Application](https://www.sciencedirect.com/science/article/pii/S2949855424000042)**
+
 
 ---
 
