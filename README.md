@@ -6,7 +6,7 @@
 
 ## 🗂️ Table of Contents
 
-- [📌 Key Surveys and Overviews](#📌-key-surveys-and-overviews)
+- [📌 Related Surveys and Overviews](#📌-some-related-surveys-and-overviews)
 - [🚀 Algorithms & Theoretical Advances](#🚀-algorithms--theoretical-advances)
   - [📈 Policy Gradient Methods](#📈-policy-gradient-methods)
   - [🎯 Value-Based Methods](#🎯-value-based-methods)
@@ -16,6 +16,7 @@
   - [🧮 Theoretical Foundations](#🧮-theoretical-foundations)
   - [🎲 Exploration & Sampling](#🎲-exploration--sampling)
   - [🧠 Latent Thought Language Models (LTM) for RL](#🧠-latent-thought-language-models-ltm-for-rl)
+  - [🛰️ Federated Reinforcement Learning (FedRL)](#🛰️-federated-reinforcement-learning-fedrl)
 - [🧱 System Frameworks](#🧱-system-frameworks)
 - [📡 Communication Efficiency](#📡-communication-efficiency)
 - [👥 Multi-Agent Distributed RL](#👥-multi-agent-distributed-rl)
@@ -29,7 +30,7 @@
 
 ---
 
-## 📌 Some Related Surveys and Overviews
+## 📌 Related Surveys and Overviews
 
 - **[Survey on Distributed RL](https://arxiv.org/abs/2004.11780)**  
 - **[Scaling RL](https://arxiv.org/abs/2203.00595)**  
