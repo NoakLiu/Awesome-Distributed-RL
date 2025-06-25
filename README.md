@@ -177,6 +177,7 @@
 | Cleanba          |   2023 | https://github.com/vwxyzjn/cleanba   |
 | FedHQL           |   2023 | https://arxiv.org/abs/2301.11135     |
 | DistRL Framework |   2024 | https://arxiv.org/abs/2401.15803     |
+| AReaL            |   2025 |  https://github.com/inclusionAI/AReaL|
 
 ---
 
