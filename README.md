@@ -171,7 +171,6 @@
 | Ray RLlib                                                |   2021 | https://docs.ray.io/en/latest/rllib/ |
 | RLlib: Abstractions for Distributed Reinforcement Learning |   2018 | https://arxiv.org/abs/1712.09381     |
 | Acme             |   2020 | https://github.com/deepmind/acme     |
-| Acme: A Research Framework for Distributed Reinforcement Learning |   2020 | https://arxiv.org/abs/2006.00979     |
 | TorchBeast: A PyTorch Platform for Distributed RL    |   2019 | https://arxiv.org/abs/1910.03552     |
 | TorchRL          |   2023 | https://pytorch.org/rl/              |
 | CleanRL + SLURM  |   2022 | https://github.com/vwxyzjn/cleanrl   |
@@ -179,6 +178,7 @@
 | FedHQL           |   2023 | https://arxiv.org/abs/2301.11135     |
 | DistRL Framework |   2024 | https://arxiv.org/abs/2401.15803     |
 | AReaL            |   2025 |  https://github.com/inclusionAI/AReaL|
+| SandGraphX       |   2025 | https://github.com/NoakLiu/SandGraphX|
 
 ---
 
