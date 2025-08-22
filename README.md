@@ -1,6 +1,26 @@
 # 🧠🔥 Awesome Distributed Reinforcement Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **140+** papers, repos and websites, maintained by [Dong Liu](https://github.com/NoakLiu) and [Xuqing Yang](https://github.com/catalpa-bungei).
+> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **140+** papers, repos and websites, maintained by [Dong Liu](https://github.com/NoakLiu).
+
+---
+
+## 🔥🔥🔥 Latest Updates & Progress
+
+🔥🔥🔥 07/2025 MTBench: Benchmarking Massively Parallelized Multi-Task RL for Robotics Tasks  
+🔥🔥🔥 05/2025 LLM-Explorer: RL Policy Exploration Enhancement Driven by Large Language Models  
+🔥🔥🔥 05/2025 Place Cells as Position Embeddings for Multi-Time Random Walk Path Planning  
+🔥🔥🔥 05/2025 Latent Adaptive Planner for Dynamic Manipulation  
+🔥🔥🔥 05/2025 Seek in the Dark: Test-Time Instance-Level Policy Gradient in Latent Space  
+🔥🔥🔥 02/2025 Scalable Language Models with Posterior Inference of Latent Thought Vectors  
+🔥🔥🔥 02/2025 FedHPD: Heterogeneous Federated RL via Policy Distillation  
+🔥🔥🔥 02/2025 MuJoCo Playground: Rapid Sim-to-Real Robot Learning on GPU (MJX)  
+🔥🔥🔥 02/2025 Large Language Models for Multi-Robot Systems: A Survey  
+🔥🔥🔥 12/2024 FedRLHF: Convergence-Guaranteed Federated Framework for Privacy-Preserving RLHF  
+🔥🔥🔥 07/2024 Privileged Reinforcement Learning for Multi-Robot Exploration  
+🔥🔥🔥 05/2024 Massively Parallelizing Episodic RL (Orbit/Isaac stack)  
+🔥🔥🔥 04/2024 ORBIT-Surgical: Open-Simulation Framework for Robot-Assisted Surgery  
+🔥🔥🔥 01/2024 SRL: Scaling Distributed RL to 10,000+ Cores  
+🔥🔥🔥 01/2024 DistRL: Async Distributed RL Framework for On-Device Control Agents
 
 ---
 
@@ -17,6 +37,7 @@
   - [🎲 Exploration & Sampling](#🎲-exploration--sampling)
   - [🧠 Latent Thought Language Models (LTM) for RL](#🧠-latent-thought-language-models-ltm-for-rl)
   - [🛰️ Federated Reinforcement Learning (FedRL)](#🛰️-federated-reinforcement-learning-fedrl)
+  - [🤖 Robotics and Control](#🤖-robotics-and-control)
 - [🧱 System Frameworks](#🧱-system-frameworks)
 - [📡 Communication Efficiency](#📡-communication-efficiency)
 - [👥 Multi-Agent Distributed RL](#👥-multi-agent-distributed-rl)
@@ -161,6 +182,24 @@
 | Federated Ensemble-Directed Offline Reinforcement Learning            | 2023 | https://arxiv.org/abs/2305.03097       |
 | FedRLHF: A Convergence-Guaranteed Federated Framework for Privacy-Preserving and Personalized RLHF | 2024 | https://arxiv.org/abs/2412.15538       |
 
+---
+
+### 🤖 Robotics and Control
+
+| Title                                                                 | Year | Link                                   |
+|:----------------------------------------------------------------------|-----:|:---------------------------------------|
+| QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation | 2018 | https://arxiv.org/abs/1806.10293       |
+| Distributed Reinforcement Learning for Decentralized Linear Quadratic Control: A Derivative-Free Policy Optimization Approach | 2019 | https://arxiv.org/abs/1912.09135       |
+| Distributed Reinforcement Learning for Robot Teams: A Review | 2022 | https://arxiv.org/abs/2204.03516       |
+| Open X-Embodiment: Robotic Learning Datasets and RT-X Models | 2023 | https://arxiv.org/abs/2310.08864       |
+| Federated Reinforcement Learning for Robot Motion Planning with Zero-Shot Generalization | 2024 | https://dl.acm.org/doi/10.1016/j.automatica.2024.111709 |
+| Privileged Reinforcement and Communication Learning for Distributed, Bandwidth-Limited Multi-Robot Exploration | 2024 | https://arxiv.org/abs/2407.20203       |
+| Reinforcement Learning of Adaptive Multi-Robot Cooperative Transport (TIHDP) | 2024 | https://arxiv.org/abs/2404.02362       |
+| Massively Parallelizing Episodic Reinforcement Learning (Orbit/Isaac stack) | 2024 | https://arxiv.org/abs/2405.11512       |
+| ORBIT-Surgical: An Open-Simulation Framework for Robot-Assisted Surgery | 2024 | https://autolab.berkeley.edu/assets/publications/media/2024-ICRA-ORBIT-Surgical.pdf |
+| MuJoCo Playground: Rapid Sim-to-Real Robot Learning on GPU (MJX) | 2025 | https://arxiv.org/abs/2502.08844       |
+| Benchmarking Massively Parallelized Multi-Task RL for Robotics Tasks (MTBench) | 2025 | https://arxiv.org/abs/2507.23172       |
+| Large Language Models for Multi-Robot Systems: A Survey | 2025 | https://arxiv.org/abs/2502.03814       |
 
 ---
 
@@ -279,7 +318,7 @@ MIT License. See `LICENSE` for details.
 
 ```bibtex
 @online{liu2025awesome,
-  author       = {Dong Liu, Xuqing Yang, Xuhong Wang, Ying Nian Wu and contributors},
+  author       = {Dong Liu, Xuhong Wang, Ying Nian Wu and contributors},
   title        = {Awesome Distributed Reinforcement Learning},
   year         = {2025},
   url          = {https://github.com/NoakLiu/Awesome-Distributed-RL},
