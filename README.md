@@ -1,6 +1,6 @@
 # 🧠🔥 Awesome Distributed Reinforcement Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **140+** papers, repos and websites, maintained by [Dong Liu](https://github.com/NoakLiu).
+> A curated list of 🔥 **Distributed Reinforcement Learning** papers and systems. Covering scalable algorithms, system frameworks, multi-agent setups, large models, communication strategies, and RLHF — **140+** papers, repos and websites, maintained by [Dong Liu](https://github.com/NoakLiu) and Yanxuan Yu (yy3523@columbia.edu).
 
 ---
 
@@ -43,6 +43,7 @@
 - [👥 Multi-Agent Distributed RL](#👥-multi-agent-distributed-rl)
 - [🦾 RLHF & Distributed Human Feedback](#🦾-rlhf--distributed-human-feedback)
 - [🧠 Large-Scale Models in RL](#🧠-large-scale-models-in-rl)
+- [Motion Planning in 3D](#motion-planning-in-3d)
 - [💻 Codebases & Benchmarks](#💻-codebases--benchmarks)
 - [📚 Resources & Tutorials](#📚-resources--tutorials)
 - [🏁 Contributing](#🏁-contributing)
@@ -203,6 +204,46 @@
 
 ---
 
+## Motion Planning in 3D
+
+This section summarizes foundational algorithms and widely used libraries for motion planning in three-dimensional spaces. Links are to stable DOIs, archival PDFs, or official project pages.
+
+### Core Algorithms and Methods
+
+| Title                                                                 | Year | Link                                                                 |
+|:----------------------------------------------------------------------|-----:|:---------------------------------------------------------------------|
+| Probabilistic Roadmaps for Path Planning in High-Dimensional Configuration Spaces (PRM) | 1996 | https://doi.org/10.1109/70.508439                                     |
+| Rapidly-Exploring Random Trees (RRT)                                  | 1998 | http://msl.cs.illinois.edu/~lavalle/papers/Lav98c.pdf                 |
+| Sampling-based Algorithms for Optimal Motion Planning (RRT*)          | 2011 | https://arxiv.org/abs/1105.1186                                       |
+| Fast Marching Tree (FMT*)                                             | 2013 | https://arxiv.org/abs/1306.3532                                       |
+| CHOMP: Gradient-Based Trajectory Optimization for Motion Planning     | 2009 | https://personalrobotics.cs.washington.edu/publications/ratliff2009chomp.pdf |         |
+
+
+### Libraries and Frameworks
+
+| Project              |  Link                                   |
+|:---------------------|:----------------------------------------|
+| OMPL (Open Motion Planning Library) | https://ompl.kavrakilab.org/        |
+| MoveIt               | https://moveit.picknik.ai/               |
+| OctoMap              | https://octomap.github.io/               |
+
+### Recent Advances (2023–2025)
+
+| Title                                                                 | Year | Link                                                                 |
+|:----------------------------------------------------------------------|-----:|:---------------------------------------------------------------------|
+| Design and Evaluation of Motion Planners for Quadrotors in Environments with Varying Complexities | 2024 | https://arxiv.org/abs/2309.13720                                       |
+| Diffusion-based Generation, Optimization, and Planning in 3D Scenes   | 2023 | https://arxiv.org/abs/2301.06015                                       |
+| A Novel Vector-Field-Based Motion Planning Algorithm for 3D Nonholonomic Robots | 2023 | https://arxiv.org/abs/2302.11110                                       |
+| Motion Planning for Robotics: A Review for Sampling-based Planners    | 2024 | https://arxiv.org/abs/2410.19414                                       |
+| Real-time Motion Planning for Autonomous Vehicles in Dynamic Environments | 2024 | https://arxiv.org/abs/2406.02916                                       |
+| Simultaneous Multi-Robot Motion Planning with Projected Diffusion Models | 2025 | https://arxiv.org/abs/2502.03607                                       |
+| Multi-layer Motion Planning with Kinodynamic and Spatio-Temporal Constraints | 2025 | https://arxiv.org/abs/2503.07762                                       |
+| Safe Flow Matching: Robot Motion Planning with Control Barrier Functions | 2025 | https://arxiv.org/abs/2504.08661                                       |
+| SPADE: Scalable Path Planning Architecture on Multi-Domain 3D Scene Graphs | 2025 | https://arxiv.org/abs/2505.19098                                       |
+| Rapid Motion Planning of Manipulator in Three-Dimensional Space Under Multiple Scenes | 2024 | https://doi.org/10.1177/09544062241271744                               |
+| Task and Motion Planning in Hierarchical 3D Scene Graphs              | 2024 | https://arxiv.org/abs/2403.08094                                       |
+
+
 ## 🧱 System Frameworks
 
 | Title                                                    |   Year | Link                                 |
@@ -318,7 +359,7 @@ MIT License. See `LICENSE` for details.
 
 ```bibtex
 @online{liu2025awesome,
-  author       = {Dong Liu, Xuhong Wang, Ying Nian Wu and contributors},
+  author       = {Dong Liu, Yanxuan Yu, Ying Nian Wu and contributors},
   title        = {Awesome Distributed Reinforcement Learning},
   year         = {2025},
   url          = {https://github.com/NoakLiu/Awesome-Distributed-RL},
