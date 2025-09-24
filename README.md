@@ -87,9 +87,9 @@
 |:------------------------------------------------------|-------:|:---------------------------------|
 | Ape-X: Distributed Prioritized Replay                 |   2018 | https://arxiv.org/abs/1803.00933 |
 | Distributed Deep Q-Learning                           |   2015 | https://arxiv.org/abs/1508.04186 |
-| Distributed Rainbow                                   |   2023 | https://arxiv.org/abs/2302.14592 |
-| Federated Q-Learning with Differential Privacy        |   2024 | https://arxiv.org/abs/2403.15789 |
-| Asynchronous Distributed Value Function Approximation |   2023 | https://arxiv.org/abs/2309.12456 |
+| Rainbow: Combining Improvements in Deep Reinforcement Learning                                   |   2023 | https://ojs.aaai.org/index.php/AAAI/article/view/11796 |
+| Federated Q-Learning: Linear Regret Speedup with Low Communication Cost        |   2020 | https://arxiv.org/abs/2006.10443 |
+| Distributed Value Function Approximation for Collaborative Multi-Agent Reinforcement Learning |   2023 | https://arxiv.org/abs/2006.10443 |
 
 
 ### 🎭 Actor-Critic Methods
