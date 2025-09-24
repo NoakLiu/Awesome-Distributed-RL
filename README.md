@@ -89,7 +89,7 @@
 | Ape-X: Distributed Prioritized Replay                 |   2018 | https://arxiv.org/abs/1803.00933 |
 | Distributed Deep Q-Learning                           |   2015 | https://arxiv.org/abs/1508.04186 |
 | Rainbow: Combining Improvements in Deep Reinforcement Learning                                   |   2023 | https://ojs.aaai.org/index.php/AAAI/article/view/11796 |
-| Federated Q-Learning: Linear Regret Speedup with Low Communication Cost        |   2020 | https://arxiv.org/abs/2006.10443 |
+| Federated Q-Learning: Linear Regret Speedup with Low Communication Cost        |   2023 | https://arxiv.org/abs/2312.15023 |
 | Distributed Value Function Approximation for Collaborative Multi-Agent Reinforcement Learning |   2023 | https://arxiv.org/abs/2006.10443 |
 
 
